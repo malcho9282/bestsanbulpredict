@@ -17,7 +17,7 @@ col1, col2 = st.columns([4, 1])
 with col2:
     st.image("https://yt3.googleusercontent.com/ytc/AIdro_lpQ3F79hQhruFACNbiC06LnBXo7SNAMtnT3UFqZaOSbg=s900-c-k-c0x00ffffff-no-rj", width=50,)
 with col1:
-    st.title("안동중앙고 소프웨어동아리")
+    st.title("안동중앙고 소프트웨어동아리")
 ad = pd.read_csv("AD.csv")
 st.header("산불 예측 모델")
 
@@ -110,3 +110,4 @@ if st.sidebar.button("산불 확률 예측"):
     
     st.info(f"해당 조건에서 '{pred_class}'({warning_g}) 등급일 확률은 {max_prob:.2f}% 입니다.")
 st.markdown("<span style='font-size:10px;'>made by 김규태, 손창수, 이상우, 이지훈</span>", unsafe_allow_html=True)
+
